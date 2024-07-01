@@ -1,0 +1,74 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #282c34;
+  color: #ff69b4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 20px auto;
+  background: #20232a;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: 2px solid #ff69b4;
+}
+
+h1 {
+  text-align: center;
+  color: #ff69b4;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #333;
+  color: #fff;
+}
+
+table,
+th,
+td {
+  border: 2px solid #ff69b4;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: center;
+}
+
+th {
+  background-color: #444;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button.delete {
+  background-color: #e74c3c;
+  color: white;
+}
+
+button.edit {
+  background-color: #3498db;
+  color: white;
+}
+
+button.add {
+  background-color: #ff69b4;
+  color: white;
+  display: block;
+  margin: 20px auto;
+}
